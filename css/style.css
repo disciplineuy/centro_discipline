@@ -526,8 +526,8 @@ ol {
 .hs-slider.owl-carousel .owl-nav button {
 	height: 46px;
 	width: 46px;
-	color: #a9a9a9;
-	background: rgba(255, 255, 255, 0.1);
+	color: var(--color-secundario);
+	background: rgba(255, 255, 255, 0.3);
 	line-height: 46px;
 	text-align: center;
 	position: absolute;
