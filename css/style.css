@@ -1404,9 +1404,8 @@ ol {
 }
 
 .ts_slider .ts_item .ti_pic img {
-	height: 200px;
-	width: 200px;
-	border-radius: 50%;
+	height: 300px;
+	width: 300px;
 }
 
 .ts_slider .ts_item .ti_text p {
