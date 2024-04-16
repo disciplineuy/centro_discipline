@@ -3188,6 +3188,7 @@ ol {
 	.hs-slider .hs-item {
 		height: auto;
 		padding: 250px 0 150px;
+		background-position: 90% 50%;
 	}
 	.hs-slider .hs-item .hi-text h1 {
 		font-size: 48px;
