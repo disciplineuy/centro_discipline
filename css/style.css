@@ -94,6 +94,11 @@ p {
 	margin: 0 0 15px 0;
 }
 
+.ps-item p {
+    color: var(--color-primario);
+	font-size:14px;
+}
+
 img {
 	max-width: 100%;
 }
@@ -781,9 +786,7 @@ ol {
 	text-align: center;
 	padding: 40px 30px 52px;
 	border: 1px solid #464646;
-	-webkit-transform: skewY(-4deg);
-	-ms-transform: skewY(-4deg);
-	transform: skewY(-4deg);
+
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
@@ -823,16 +826,18 @@ ol {
 	color: var(--color-secundario);
 	font-weight: 600;
 	margin-bottom: 16px;
-	-webkit-transform: skewY(4deg);
-	-ms-transform: skewY(4deg);
-	transform: skewY(4deg);
+	
+}
+
+.ps-item .pi-price h4 {
+    font-size: 35px;
+    color: var(--color-primario);
+    font-weight: 600;
 }
 
 .ps-item .pi-price {
 	margin-bottom: 30px;
-	-webkit-transform: skewY(4deg);
-	-ms-transform: skewY(4deg);
-	transform: skewY(4deg);
+
 }
 
 .ps-item .pi-price h2 {
@@ -850,9 +855,7 @@ ol {
 
 .ps-item ul {
 	margin-bottom: 40px;
-	-webkit-transform: skewY(4deg);
-	-ms-transform: skewY(4deg);
-	transform: skewY(4deg);
+
 }
 
 .ps-item ul li {
@@ -865,9 +868,7 @@ ol {
 .ps-item .primary-btn.pricing-btn {
 	display: block;
 	background: #333333;
-	-webkit-transform: skewY(4deg);
-	-ms-transform: skewY(4deg);
-	transform: skewY(4deg);
+
 }
 
 .ps-item .thumb-icon {
@@ -876,9 +877,7 @@ ol {
 	position: absolute;
 	left: 50px;
 	bottom: 120px;
-	-webkit-transform: skewY(4deg);
-	-ms-transform: skewY(4deg);
-	transform: skewY(4deg);
+	
 	opacity: 0;
 	visibility: hidden;
 }
@@ -2762,6 +2761,32 @@ ol {
 .text-404 a i {
 	color: var(--color-primario);
 	margin-right: 5px;
+}
+
+
+.color-box {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid #ddd; /* Add slight border for light colors */
+}
+
+.ci-thumb {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Keeps the image within the div */
+}
+
+.catalog-item {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 }
 
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
