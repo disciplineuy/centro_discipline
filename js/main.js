@@ -189,7 +189,7 @@ const tshirtSizes = {
         terracota: { S: 8, M: 2, L: 2 },
 
     },
-    "rutine": {
+    "routine": {
         beige: { S: 6, M: 1, L: 2 },
         terracota: { S: 4, M: 2, L: 2 },
 
