@@ -218,7 +218,7 @@ function changeImage(id,modelo, color) {
         carousel.html(
             `           
             <div class="ci-thumb set-bg">
-                <video id="tshirt-video-${modelo}-${id}" alt="Model Classic" loop autoplay muted>
+                <video id="tshirt-video-${modelo}-${id}" alt="Model Classic" loop autoplay muted playsinline>
                     <source src="${videoPath}" id="tshirt-video-${modelo}-${id}" type="video/mp4">
 
                     Tu navegador no soporta la etiqueta de video.
