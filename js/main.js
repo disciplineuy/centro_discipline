@@ -187,6 +187,8 @@ const tshirtSizes = {
     "cruz": {
         beige: { S: 3, M: 4, L: 2 },
         terracota: { S: 8, M: 2, L: 2 },
+        black: { S: 0, M: 0, L: 0 },
+
 
     },
     "routine": {
@@ -195,6 +197,19 @@ const tshirtSizes = {
 
     }
 };
+
+const tshirtPrices = {
+   
+    "cruz": {
+        beige: "$ 1390",
+        terracota: "$ 1390",
+        black: "SOLD OUT"
+
+    }
+};
+
+
+
 
 function changeImage(id,modelo, color) {
     var videoPath = 'img/shirts/model-' + modelo + '-' + color + '.mp4';
@@ -249,7 +264,10 @@ function changeImage(id,modelo, color) {
         // Actualizar el texto de talles basado en el id y color
         var sizes = tshirtSizes[modelo][color];
         var sizesText = `S : ${sizes.S} | M : ${sizes.M} | L : ${sizes.L}`;
+        var price = tshirtPrices[modelo][color];
+
         document.getElementById(`tshirt-talles-${modelo}`).innerText = sizesText;
+        document.getElementById(`tshirt-price-${modelo}`).innerText = price;
 
 
     } else {
