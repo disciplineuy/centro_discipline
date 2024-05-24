@@ -199,11 +199,20 @@ const tshirtSizes = {
 };
 
 const tshirtPrices = {
-   
+    "wolf": {
+        beige:  "$ 1390",      
+        terracota:  "$ 1390"
+
+    },
     "cruz": {
         beige: "$ 1390",
         terracota: "$ 1390",
         black: "SOLD OUT"
+
+    },
+    "routine": {
+        beige: "$ 1390",
+        terracota: "$ 1390"
 
     }
 };
@@ -264,6 +273,7 @@ function changeImage(id,modelo, color) {
         // Actualizar el texto de talles basado en el id y color
         var sizes = tshirtSizes[modelo][color];
         var sizesText = `S : ${sizes.S} | M : ${sizes.M} | L : ${sizes.L}`;
+
         var price = tshirtPrices[modelo][color];
 
         document.getElementById(`tshirt-talles-${modelo}`).innerText = sizesText;
